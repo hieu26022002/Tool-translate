@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "hieunn",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^9.3.0",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "express": "^5.2.1",
+    "fs-extra": "^11.3.3",
+    "nodemon": "^3.1.11",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
